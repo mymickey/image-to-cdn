@@ -1,0 +1,5 @@
+
+{
+	"name":"imageToCDN",
+	"main":"./index.js"
+}
