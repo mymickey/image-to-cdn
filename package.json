@@ -1,5 +1,12 @@
-
 {
-	"name":"imageToCDN",
-	"main":"./index.js"
+	"name":"image-to-cdn",
+	"main":"./index.js",
+	 "version": "0.0.1",
+	 "dependencies":{
+	 	"base-converter":"~1.1.2",
+	 	"css-inner-image":"~0.0.3",
+	 	"fileutil":"~1.1.1",
+	 	"image-size":"~0.1.5",
+	 	"node-uploader":"~1.0.0"
+	 }
 }
