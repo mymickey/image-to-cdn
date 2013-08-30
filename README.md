@@ -20,5 +20,5 @@ a{background-image:url(image/a.png)}
 ```
 igo after
 ```css
-a{background-image:url(alicdn.com/x/a-size.png)}
+a{background-image:url(http://alicdn.com/x/a-size.png)}
 ```
