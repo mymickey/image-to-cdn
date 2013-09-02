@@ -300,13 +300,15 @@ module.exports = function(att){
             //return;
             if (files.length) {
                 files.forEach(function(v,k){
-                    me.uploadFile(v.path, function(e,filePath,url){
-                            v.path = url;
-                            if(files.length -1 ==k){
-                                //console.log('ok:',files);
-                                replace(opt.cssFile,null,files,true)
-                            }
-                        }, opts);
+                    setTimeout(function(){
+                        me.uploadFile(v.path, function(e,filePath,url){
+                                v.path = url;
+                                if(files.length -1 ==k){
+                                    //console.log('ok:',files);
+                                    replace(opt.cssFile,null,files,true)
+                                }
+                            }, opts);
+                    }, 1000*k);
                 });
             }
             else{
