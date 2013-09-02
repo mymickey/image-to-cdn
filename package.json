@@ -1,7 +1,7 @@
 {
 	"name":"image-to-cdn",
 	"main":"./index.js",
-	 "version": "0.0.1",
+	 "version": "0.0.2",
 	 "dependencies":{
 	 	"base-converter":"~1.1.2",
 	 	"css-inner-image":"~0.0.3",
